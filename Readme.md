@@ -1,4 +1,4 @@
-# 视频弹跳事件自动检测工具 v2.0
+# 视频弹跳事件自动检测工具 v3.0
 
 一个命令行工具，用于从视频追踪数据中自动检测物体弹跳事件。
 
@@ -63,5 +63,4 @@ batch_data/
   * `*_bounces.csv`：在原始数据基础上新增了 `is_bounce` 列，`1` 表示该帧被检测为弹跳。
   * `*_output.mp4`：（可选）带有详细分析图表的可视化视频。
 
-可视化视频示例：
 ![output_video_example](output_video_example.gif)
